@@ -1,0 +1,35 @@
+<section id="products">
+    <h2>Products</h2>
+
+    <!-- Product 1 -->
+    <div class="product">
+        <img src="https://via.placeholder.com/300" alt="Product 1">
+        <h2>Product 1</h2>
+        <p>Price: $10.00</p>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_xclick">
+            <input type="hidden" name="business" value="YOUR_PAYPAL_EMAIL@example.com">
+            <input type="hidden" name="item_name" value="Product 1">
+            <input type="hidden" name="amount" value="10.00">
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="submit" value="Buy with PayPal">
+        </form>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product">
+        <img src="https://via.placeholder.com/300" alt="Product 2">
+        <h2>Product 2</h2>
+        <p>Price: $20.00</p>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_xclick">
+            <input type="hidden" name="business" value="YOUR_PAYPAL_EMAIL@example.com">
+            <input type="hidden" name="item_name" value="Product 2">
+            <input type="hidden" name="amount" value="20.00">
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="submit" value="Buy with PayPal">
+        </form>
+    </div>
+
+    <!-- Add more products as needed -->
+</section>
